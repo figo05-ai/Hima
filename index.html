@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DriveX</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="website" icon="images/site-icon.jpg" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">
+        <img src="images/site-icon.jpg" alt="" />
+      </div>
+      <!-- header-logo -->
+      <div class="btn-header">
+        <button
+          id="btn-register"
+          onclick="window.location.href = 'register.html' "
+        >
+          register
+        </button>
+        <button id="btn-login" onclick="window.location.href = 'login.html' ">
+          login
+        </button>
+      </div>
+      <!-- btn-header -->
+    </div>
+    <!-- header -->
+    <section class="sec-1">
+      <select id="search-product">
+        <option value="choice1">Search by Car Name..</option>
+        <option value="choice2">Search by Model..</option>
+      </select>
+      <!-- search-product  -->
+      <input type="search" class="search-product" placeholder="search ..." />
+      <button id="btn-search">search</button>
+    </section>
+    <!-- sec-1 -->
+    <!-- //////////////////// -->
+    <section class="sec-2">
+      <div class="parent-img">
+        <img src="images/audi.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">audi a8 2025</p>
+        <p>200000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+      <!-- ///////////////// -->
+      <div class="parent-img">
+        <img src="images/bently.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">bently</p>
+        <p>10000000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+      <!-- ///////////////// -->
+      <div class="parent-img">
+        <img src="images/bmw.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">BMW</p>
+        <p>6000000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+    </section>
+    <!-- ///////////////// -->
+    <section class="sec--2">
+      <div class="parent-img">
+        <img src="images/eskaled.JPG" alt="" width="300" height="250" />
+        <p class="first-p-child">eskaled</p>
+        <p>50000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+      <!-- //////////////////////// -->
+      <div class="parent-img">
+        <img src="images/lkzs.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">lekzes</p>
+        <p>10000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+      <!-- ///////////////////// -->
+      <div class="parent-img">
+        <img src="images/porch.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">porch</p>
+        <p>20000000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+    </section>
+    <!-- ///////////////////////// -->
+    <section class="sec---2">
+      <div class="parent-img">
+        <img src="images/rolls roys.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">rolls roys</p>
+        <p>10000000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+      <!-- ///////////////////// -->
+      <div class="parent-img">
+        <img src="images/tesla.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">tesla</p>
+        <p>200000000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+      <!-- //////////////////// -->
+      <div class="parent-img">
+        <img src="images/mercedes.jpg" alt="" width="300" height="250" />
+        <p class="first-p-child">mercedes</p>
+        <p>5000000$</p>
+        <p>modern design</p>
+        <label><i class="fa-solid fa-heart"></i></label>
+        <button id="cart">add to cart</button>
+      </div>
+    </section>
+
+    <section class="car-listing">
+      <h1>السيارات المعروضة</h1>
+      <div id="cars-container" class="grid-layout"></div>
+    </section>
+
+    <div id="cars-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
